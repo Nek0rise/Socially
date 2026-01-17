@@ -1,0 +1,28 @@
+name: Socially
+version: '${project.version}'
+main: me.nekorise.socially.Socially
+api-version: '1.21'
+prefix: Socially
+authors: [Nekorise]
+description: Chat system
+depend: [PlaceholderAPI]
+commands:
+  socially: {}
+  msg:
+    description: Send message to player
+    aliases:
+      - w
+      - m
+
+# socially.msg
+# socially.reload
+# socially.handshake
+# socially.color
+# socially.badwordbypass
+
+# TODO:
+# - Add /ignore
+# - Add legacy format codes support (&#RRGGBB)
+# - Improve parsing PAPI placeholders
+# - Add more parameters to configure chat bubbles
+# - Add customizable placeholders to chat (:pos:, :hp:, etc)

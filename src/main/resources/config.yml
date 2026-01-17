@@ -1,0 +1,37 @@
+# You can also create any new file in the /langs/ directory and specify its name here
+language: en
+
+# Feature toggles
+features:
+  chat-modification: true
+  chat-bubbles: true
+  right-click-nickname: true
+
+# Chat settings
+local-chat-distance: 150.0
+global-chat-prefix: '!'
+player-ping-sound: "minecraft:block.amethyst_block.resonate"
+
+# Chat bubble settings
+bubble:
+  y-offset: 0.5 # Height from head
+  text-alignment: CENTER # More: https://jd.papermc.io/paper/1.21.1/org/bukkit/entity/TextDisplay.TextAlignment.html
+  billboard: HORIZONTAL # More: https://jd.papermc.io/paper/1.21.1/org/bukkit/entity/Display.Billboard.html
+  life-time: 100 # Ticks
+
+# Join-Quit message settings
+modify-join-message: true
+modify-quit-message: true
+
+blacklist-words:
+  - "faggot"
+  - "nigga"
+  - "simp"
+
+# DM settings
+message:
+  sound: "minecraft:ui.cartography_table.take_result"
+
+# If this project is actively used,
+# I will continue developing it by adding new features
+# and expanding configuration options <3

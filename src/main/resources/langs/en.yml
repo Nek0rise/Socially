@@ -1,0 +1,20 @@
+chat:
+  global: "<#71d7c6>ɢ <#959595>| %luckperms_prefix%<#71d7c6><sender> <#959595>⇨ <white><message>"
+  local: "<#71d7c6>ʟ <#959595>| %luckperms_prefix%<#71d7c6><sender> <#959595>⇨ <gray><message>"
+  ping: "<#ffcf00><pinged_player>"
+
+join-message: "<white>♥ <#3bed85><player> <#71d7c6>joined the game"
+quit-message: "<white>♡ <#3bed85><player> <#71d7c6>left the game"
+
+bad-word-message: "<#ff0050>Your message contains forbidden words"
+
+reload-command:
+  usage: "<#47add9>Usage: <#71d7c6>/socially reload"
+  done: "<#3bed85>Socially » <#71d7c6>Configs reloaded"
+msg:
+  usage: "<#47add9>Usage: <#71d7c6>/msg <Player> <Message>"
+  self-send: "<#ff0050>You cannot send a message to yourself"
+  user-offline: "<#ff0050>This player is currently offline"
+  message: "<#71d7c6>[<#3bed85><sender> <#71d7c6>→ <#3bed85><recipient><#71d7c6>]: <gray><message>"
+
+handshake-message: "%luckperms_prefix%<gradient:#3bed85:#548AB6><target_player>"

@@ -1,0 +1,20 @@
+chat:
+  global: "<#71d7c6>ɢ <#959595>| %luckperms_prefix%<sender> <#959595>⇨ <white><message>"
+  local: "<#71d7c6>ʟ <#959595>| %luckperms_prefix%<sender> <#959595>⇨ <gray><message>"
+  ping: "<#ffcf00><pinged_player>"
+
+join-message: "<white>♥ <#3bed85><player> <#71d7c6>зашёл на сервер"
+quit-message: "<white>♡ <#3bed85><player> <#71d7c6>пошёл по делам"
+
+bad-word-message: "<#ff0050>В твоём сообщении есть запретки"
+
+reload-command:
+  usage: "<#47add9>Используй: <#71d7c6>/socially reload"
+  done: "<#3bed85>Socially » <#71d7c6>Конфиги перезагружены"
+msg:
+  usage: "<#47add9>Используй: <#71d7c6>/msg <Ник> <Сообщение>"
+  self-send: "<#ff0050>Нельзя отправлять сообщение самому себе"
+  user-offline: "<#ff0050>Этот игрок сейчас оффлайн"
+  message: "<#71d7c6>[<#3bed85><sender> <#71d7c6>→ <#3bed85><recipient><#71d7c6>]: <gray><message>"
+
+handshake-message: "%luckperms_prefix%<gradient:#3bed85:#548AB6><target_player>"
