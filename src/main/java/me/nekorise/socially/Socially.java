@@ -23,7 +23,7 @@ public final class Socially extends JavaPlugin {
         registerCommands();
         registerTabCompleters();
         registerEvents();
-        //registerBStats();
+        registerBStats();
     }
 
     @Override
